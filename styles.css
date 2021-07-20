@@ -157,15 +157,14 @@ text-decoration: underline;
 
 
 @media (max-width: 650px)  {
-    login-wrapper {
-        width: 90%;
+    .login-wrapper {
+        width: 80%;
+        margin-top: 20px;
     }
-    login-phone {
+    .login-phone {
         display: none;
     }
-    login-entrada {
+    .login-entrada {
         width: 100%;
     }
 }
-
-

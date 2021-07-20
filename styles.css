@@ -168,9 +168,4 @@ text-decoration: underline;
     }
 }
 
-@media screen {
-    login-wrapper {
-        width: 90%;
-    }
-}
 

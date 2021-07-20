@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 87, 189);
+    display: flex;
+    justify-content: center;
+}
+
+.login-wrapper {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.login-phone {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-phone img {
+    height: 50rem;
+}
+
+.login-entrada {
+    width: 50%;
+    min-height: 34rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 4px;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.group:nth-child(2) {
+    padding: 20px;
+}
+
+.ref-logo {
+    width: 30%;
+    height: auto;
+}
+
+.profile-pic {
+    width: 50%;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-pic img {
+    height: 4rem;
+}
+
+
+.login-button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.logout-button {
+    margin-top: 10px;
+    text-decoration: none;
+    color:rgb(0, 87, 189);
+}
+
+.logout-button:hover {
+text-decoration: underline;
+}
+
+.box-login {
+    background-color: rgb(143, 143, 143);
+    height: auto;
+    width: 40px;
+}
+
+.acc-link {
+    color: #0095f6;
+}
+
+.acc-link:hover {
+    text-decoration: underline;
+}
+
+.get-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.logos-app {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.download-app {
+    color: #fff;
+}
+
+.app-download-icon {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download-icon:nth-child(1) {
+    background-image: url('img/apple_btn.png');
+}
+
+.app-download-icon:nth-child(2) {
+    background-image: url('img/google_btn.png');
+}
+
+
+@media (max-width: 650px)  {
+    login-wrapper {
+        width: 90%;
+    }
+    login-phone {
+        display: none;
+    }
+    login-entrada {
+        width: 100%;
+    }
+}
+
+@media screen {
+    login-wrapper {
+        width: 90%;
+    }
+}
+
